@@ -14,7 +14,7 @@ const CityForecast = ({ city }) => {
 
     const weatherDataRef = useRef(null);
 
-    const handleScroll = (ref) => {
+    const handleScroll = () => {
         weatherDataRef.current.scrollIntoView()
     };
 
